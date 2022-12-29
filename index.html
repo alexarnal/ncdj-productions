@@ -49,12 +49,12 @@ body, html {
 .w3-top {color:white;}
 
 /* Turn off parallax scrolling for tablets and phones */
-/* @media only screen and (max-device-width: 1600px) {
+@media only screen and (max-device-width: 1600px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll;
     min-height: 400px;
   }
-} */
+} 
 </style>
 <body>
 
@@ -85,7 +85,8 @@ body, html {
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle " style="white-space:nowrap;">
-    <img class="w3-animate-bottom" src="images/logo.svg" alt="logo" style="width:256px;height:256px;">
+    <img class="w3-hide-small" src="images/logo.svg" alt="logo" style="width:256px;height:256px;">
+    <img class="w3-hide-large w3-hide-medium" src="images/logo.svg" alt="logo" style="width:128px;height:128px;">
     <!--span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY <span class="w3-hide-small">WEBSITE</span> LOGO</span-->
   </div>
 </div>
@@ -96,7 +97,7 @@ body, html {
   <p class="w3-center w3-hide-small"><em>Sound &amp; Lighting Solutions For Every Social Event</em></p> 
   <p class="w3-center w3-hide-medium w3-hide-large"><em>Sound &amp; Lighting Solutions <br> For Every Social Event</em></p>
   <br>
-  <p style="text-align:justify"> Transform your social event with NC DJ Productions. With over 20 years of experience in sound and illumination, our team has the knowledge and resources to make your event unique and unforgettable. We provide state-of-the-art sound systems, custom light shows, and creative music mixes to create the perfect atmosphere. Whether it be a corporate function, wedding, or birthday party, NC DJ Productions will make your special event one to remember.</p>
+  <p style="text-align:justify;margin:16px"> Transform your social event with NC DJ Productions. With over 20 years of experience in sound and illumination, our team has the knowledge and resources to make your event unique and unforgettable. We provide state-of-the-art sound systems, custom light shows, and creative music mixes to create the perfect atmosphere. Whether it be a corporate function, wedding, or birthday party, NC DJ Productions will make your special event one to remember.</p>
   
   <!-- div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
@@ -123,10 +124,10 @@ body, html {
   <p class="w3-wide"><i class="fa fa-laptop"></i>Video</p>
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
-  </div-->
+  </div>
 </div>
 
-<!--div class="w3-row w3-center w3-dark-grey w3-padding-16">
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
   <div class="w3-quarter w3-section">
     <span class="w3-xlarge">14+</span><br>
     Partners
@@ -142,8 +143,8 @@ body, html {
   <div class="w3-quarter w3-section">
     <span class="w3-xlarge">150+</span><br>
     Meetings
-  </div>
-</div-->
+  </div-->
+</div>
 
 <!-- Second Parallax Image with Portfolio Text -->
 <div class="bgimg-2 w3-display-container w3-opacity-min" id="portfolio">
@@ -161,7 +162,7 @@ body, html {
   <!-- Container (Portfolio Section) -->
   <div class="w3-content w3-container w3-padding-32" >
     <h2 class="w3-center">LIGHTING</h2><br>
-    <p  style="margin:auto; text-align:justify; width:47.5%">Let us elevate your event with our state-of-the-art lighting. We have a wide range of lighting options to fit your budget and design. From up-lighting to dance floor lighting, we have it all.</p><br><br>
+    <p  style="margin:auto; text-align:justify; max-width: 75%">Let us elevate your event with our state-of-the-art lighting. We have a wide range of lighting options to fit your budget and design. From up-lighting to dance floor lighting, we have it all.</p><br><br>
     <div class="w3-row-padding w3-center w3-section">
       <div class="w3-col m4">
         <img src="images/light-3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Formal Wall Lighting">
@@ -203,7 +204,7 @@ body, html {
   <!-- Container (Portfolio Section) -->
   <div class="w3-content w3-container" >
     <h2 class="w3-center">SOUND</h2><br>
-    <p  style="margin:auto; text-align:justify; width:47.5%">We carry the most professional sound equipment in the area. Let our experts help you find the right system for your event. We have a variety of speakers, mixers, and mics to fit your needs and make your event an unforgettable experience.</p><br><br>
+    <p  style="margin:auto; text-align:justify; width:75%">We carry the most professional sound equipment in the area. Let our experts help you find the right system for your event. We have a variety of speakers, mixers, and mics to fit your needs and make your event an unforgettable experience.</p><br><br>
     <div class="w3-row-padding w3-center w3-section">
       <div class="w3-col m4">
         <img src="images/sound-4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Party Mode">
